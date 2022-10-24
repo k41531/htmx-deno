@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem;
+  gap: 4rem;
+}
+.container {
+  display: grid;
+  grid-gap:1rem;
+}

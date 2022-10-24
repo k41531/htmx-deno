@@ -1,0 +1,50 @@
+<html>
+  <head>
+      <script src="https://unpkg.com/htmx.org@1.8.2"></script>
+      <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+      <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <button hx-post="/click">
+        Click Me
+      </button>
+    </div>
+
+    <div class="container">
+      <button hx-post="/click" hx-swap="outerHTML">
+        Click Me
+      </button>
+    </div>
+
+    <div class="container">
+      <button hx-post="/click" hx-swap="afterbegin">
+        Click Me
+      </button>
+    </div>
+
+    <div class="container">
+      <button hx-post="/click" hx-swap="beforebegin">
+        Click Me
+      </button>
+    </div>
+
+    <div class="container">
+      <button hx-post="/click" hx-swap="beforeend">
+        Click Me
+      </button>
+    </div>
+
+    <div class="container">
+      <button hx-post="/click" hx-swap="afterend">
+        Click Me
+      </button>
+    </div>
+
+    <div class="container">
+      <button hx-post="/click" hx-swap="none">
+        Click Me
+      </button>
+    </div>
+  </body>
+</html>
